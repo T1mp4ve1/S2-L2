@@ -174,5 +174,5 @@ console.log(NumUp);
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 const NewNumUp = NumUp.slice(0);
-NewNumUp.splice(9, 1, 100);
+NewNumUp.splice(NumUp.length - 1, 1, 100);
 console.log(NewNumUp);
