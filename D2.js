@@ -85,9 +85,9 @@ if (totalShoppingCart * 0.8 >= 50) {
   Alla fine mostra il risultato in console.
 */
 
-let N1 = 99;
-let N2 = 95;
-let N3 = 89;
+let N1 = 14;
+let N2 = 36;
+let N3 = 6;
 const MyMulti = [[N1], [N2], [N3]];
 MyMulti.sort((a, b) => b - a);
 console.log(MyMulti)
